@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0-*",
+    "description": "Tests for the SharpEqualsTester",
+    "authors": [ "Choc13" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+    "tooling": {
+      "defaultNamespace": "SharpEqualsTester.Tests"
+    },
+    "dependencies": {
+        "SharpEqualsTester": "",
+        "xunit": "2.1.0",
+        "xunit.runner.dnx": "2.1.0-rc1-build204"
+    },
+    "commands": {
+        "test": "xunit.runner.dnx"
+    },
+    "frameworks": {
+        "dnx451": { }
+    }
+}

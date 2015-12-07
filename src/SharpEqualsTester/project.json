@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0-*",
+  "description": "A helper library for testing equals and hashcode implementations in C#",
+  "authors": [ "Choc13" ],
+  "tags": ["equals", "equality", "test", "tester", "helper", "hashcode", "hash", "sharp", ".net", "C#"],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "tooling": {
+    "defaultNamespace": "SharpEqualsTester"
+  },
+  "dependencies": {
+    "Microsoft.CSharp": "4.0.1-beta-23516",
+    "System.Collections": "4.0.11-beta-23516",
+    "System.Linq": "4.0.1-beta-23516",
+    "System.Runtime": "4.0.21-beta-23516"
+  },
+  "frameworks": {
+    "dnx451": {},
+    "dnxcore50": {}
+  }
+}
