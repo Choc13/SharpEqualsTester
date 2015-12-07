@@ -6,6 +6,6 @@ install:
     - dnvm upgrade
     - dnu restore
 script:
-    - dnu build /home/travis/build/choc13/SharpEqualsTester/src/SharpEqualsTester/project.json
-    - dnu build /home/travis/build/choc13/SharpEqualsTester/test/SharpEqualsTester.Tests/project.json
-    - dnx --project /home/travis/build/choc13/SharpEqualsTester/test/SharpEqualsTester.Tests/project.json test
+    - dnu build src/SharpEqualsTester/
+    - dnu build test/SharpEqualsTester.Tests
+    - dnx --project test/SharpEqualsTester.Tests test
