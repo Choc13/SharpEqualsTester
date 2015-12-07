@@ -1,0 +1,11 @@
+language: CSharp
+mono:
+    - latest
+install:
+    - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev && source ~/.dnx/dnvm/dnvm.sh
+    - dnvm upgrade
+    - dnu restore
+script:
+    - dnu build /home/travis/build/choc13/SharpEqualsTester/src/SharpEqualsTester/project.json
+    - dnu build /home/travis/build/choc13/SharpEqualsTester/test/SharpEqualsTester.Tests/project.json
+    - dnx --project /home/travis/build/choc13/SharpEqualsTester/test/SharpEqualsTester.Tests/project.json test
