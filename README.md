@@ -21,7 +21,7 @@ If any one of the above is not met when `Test()` is called it will throw an appr
 1. Install via NuGet
 2. Write a test like so:
 
-```
+```csharp
     // This example using XUnit, so it will fail if the tester throws
     // In other testing frameworks you may need do something like Assert.DoesNotThrow(() => tester.Test());
     [Fact]
