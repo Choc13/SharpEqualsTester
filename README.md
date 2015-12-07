@@ -1,5 +1,7 @@
 # SharpEqualityTester
 
+[![Build Status](https://travis-ci.org/Choc13/SharpEqualsTester.svg?branch=master)](https://travis-ci.org/Choc13/SharpEqualsTester)
+
 ## What Does It Do?
 Helps you quickly test the `Equals` and `GetHashCode` implementations of your classes.
 
