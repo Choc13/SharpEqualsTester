@@ -11,4 +11,6 @@ script:
     - dnu pack --configuration Release src/SharpEqualsTester/
     - dnu build --configuration Release test/SharpEqualsTester.Tests
     - dnx --project test/SharpEqualsTester.Tests --configuration Release test
+    # Remove the symbols for now as SymbolSource is returning errors when publishing the package
+    - rm -f src/SharpEqualsTester/bin/Release/SharpEqualsTester.*.symbols.nupkg
     - nuget push src/SharpEqualsTester/bin/Release/SharpEqualsTester.*.nupkg -ApiKey 40a11e65-c7f8-47cb-bfb9-c86ccd5e8234 -NonInteractive -Verbosity Detailed
