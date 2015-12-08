@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.0",
   "description": "Test your C# classes' Equals and GetHashCode implementations with ease",
   "authors": [ "Choc13" ],
   "tags": ["equals", "equality", "test", "tester", "helper", "hashcode", "hash", "sharp", ".net", "C#"],
