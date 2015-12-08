@@ -8,6 +8,6 @@ install:
 env:
     - DNX_BUILD_VERSION=$TRAVIS_BRANCH-$TRAVIS_BUILD_NUMBER 
 script:
-    - dnu build src/SharpEqualsTester/
-    - dnu build test/SharpEqualsTester.Tests
-    - dnx --project test/SharpEqualsTester.Tests test
+    - dnu build --configuration Release src/SharpEqualsTester/
+    - dnu build --configuration Release test/SharpEqualsTester.Tests
+    - dnx --project test/SharpEqualsTester.Tests --configuration Release test
