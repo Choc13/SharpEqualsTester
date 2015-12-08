@@ -1,4 +1,4 @@
-# SharpEqualityTester
+# SharpEqualsTester
 
 [![Build Status](https://travis-ci.org/Choc13/SharpEqualsTester.svg?branch=master)](https://travis-ci.org/Choc13/SharpEqualsTester)
 
