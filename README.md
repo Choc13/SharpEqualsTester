@@ -18,7 +18,7 @@ It checks your class meets the following conditions:
 If any one of the above is not met when `Test()` is called it will throw an appropriate exception indicating which condition was not met and by which object(s).
 
 ## How Do I Use It?
-1. Install via NuGet
+1. Install via [NuGet](https://www.nuget.org/packages/SharpEqualsTester/)
 2. Write a test like so:
 
 ```csharp
