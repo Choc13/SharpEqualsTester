@@ -1,10 +1,10 @@
 {
   "version": "1.0.0-*",
-  "description": "A helper library for testing equals and hashcode implementations in C#",
+  "description": "Test your C# classes' Equals and GetHashCode implementations with ease",
   "authors": [ "Choc13" ],
   "tags": ["equals", "equality", "test", "tester", "helper", "hashcode", "hash", "sharp", ".net", "C#"],
-  "projectUrl": "",
-  "licenseUrl": "",
+  "projectUrl": "https://github.com/Choc13/SharpEqualsTester",
+  "licenseUrl": "https://github.com/Choc13/SharpEqualsTester/blob/master/LICENSE",
   "tooling": {
     "defaultNamespace": "SharpEqualsTester"
   },
